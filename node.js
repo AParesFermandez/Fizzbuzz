@@ -1,6 +1,7 @@
 
 function fizzBuzz() {
     var output = document.getElementById('output');
+    console.log(output);
 
     for (var i = 1; i <= 100; i++) {
         var result = '';
@@ -20,6 +21,7 @@ function fizzBuzz() {
         var div = document.createElement('div');
         div.textContent = result;
         output.appendChild(div);
+        console.log(result);
     }
 }
 fizzBuzz();
